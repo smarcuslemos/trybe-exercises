@@ -3,12 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="/exercises/bloco_3/exercises/introducao-a-html-e-css_4/style.css">
   </head>
   <body>
 
-    <nav>
+    <nav class="menu">
 
-        <ul>
+        <ul class="menu-links">
             <li>Página Inicial</li>
             <li>Sobre</li>
             <li>Contato</li>
@@ -16,77 +17,89 @@
 
     </nav>
 
-    <header>
+    
+    <main class="conteudo">
 
-        <h1>Soco a 80km/h: Conheça o Stomatopoda .</h1>
+        <header class="title">
 
-    </header>
+            <h1>Soco a <strong>80km/h</strong>: Conheça o Stomatopoda .</h1>
+            <h2>- Fatos sobre o Stomatopoda -</h2>
+    
+        </header>
 
-    <main>
+        
 
-        <h2>Fatos sobre o Stomatopoda</h2>
-
-        <section>
-            <h3><em>Odontodactylus scyllarus - É seu nome científico</em></h3>
-            <p>Stomatopoda (ou estomatópode), chamados popularmente de tamarutacas ou de lacraias-do-mar no Brasil, é uma ordem de crustáceos marinhos da subclasse Hoplocarida, que agrupa cerca de 400 espécies, caracterizadas principalmente pela morfologia da segunda pata torácica, que é modificada em apêndice subquelado, lembrando uma pata de louva-a-deus.</p>
+        <section class="description">
+            <div class="container">
+            <h3><em>Odontodactylus scyllarus</em></h3> <br>
+            <p>Stomatopoda (ou estomatópode), chamados popularmente de tamarutacas ou de lacraias-do-mar no Brasil, é uma ordem de crustáceos marinhos da subclasse Hoplocarida, que agrupa cerca de 400 espécies, caracterizadas principalmente pela morfologia da segunda pata torácica, que é modificada em apêndice subquelado, lembrando uma pata de louva-a-deus.</p> </div>
+            <div class="container">
+            <img class="container" src="https://upload.wikimedia.org/wikipedia/commons/a/a1/An_account_of_the_Crustacea_Stomatopoda_of_the_Indo-Pacific_region_based_on_the_collection_in_the_Indian_Museum_%286243837958%29_%28Fig_95%29.jpg" alt="">
+                
+            </div>
         </section>
 
-        <section>
+        <section class="cientific">
             <h3>Informações Científicas</h3>
-            <table>
+            <table class="cien-table">
                 <tr>
-                    <td>Nome científico</td>
+                    <td class="cien-black">Nome científico</td>
                     <td>Reino</td>
-                    <td>Filo</td>
+                    <td class="cien-black">Filo</td>
                     <td>Subfilo</td>
-                    <td>Classe</td>
+                    <td class="cien-black">Classe</td>
                     <td>Subclasse</td>
-                    <td>Ordem</td>
+                    <td class="cien-black">Ordem</td>
                 </tr>
                 <tr>
                     <td>Odontodactylus scyllarus</td>
-                    <td>Animalia</td>
+                    <td class="cien-black">Animalia</td>
                     <td>Crustacea</td>
-                    <td>Stomatopoda</td>
+                    <td class="cien-black">Stomatopoda</td>
                     <td>Malacostraca</td>
-                    <td>Hoplocarida</td>
+                    <td class="cien-black">Hoplocarida</td>
                     <td>Stomatopoda</td>
                 </tr>
             </table>
         </section>
 
-        <section>
+        <section class="facts">
             <h3>Fatos curiosos</h3>
 
-                <section>
+                <section class="facts-1">
                     <h4>Predadores</h4>
-                    <p>
-                        Os estomatópodes são predadores ativos.
-                    </p>
-                    <img src="https://www.ripleybelieves.com/img/environment-2018/mantis-shrimp-facts-animals-of-oceans.jpg" alt="Stomatopoda assustador.">
-                </section>
 
-                <section>
-                    <h4>Pequenos ou grandes</h4>
-                    <p>
-                        Apresentam uma grande variação de tamanho.
-                    </p>
-                    <img src="https://www.borapescar.com/wp-content/uploads/2018/11/tamarutaca.jpg" alt="Stomatopoda grande.">
-                </section>
+                    
+                        <p>
+                            Os estomatópodes são predadores ativos.
+                        </p>
+                        <img class="facts-img" src="https://www.ripleybelieves.com/img/environment-2018/mantis-shrimp-facts-animals-of-oceans.jpg" alt="Stomatopoda assustador." alt="">
+                    </section>
 
-                <section>
-                    <h4>Carnívoros</h4>
-                    <p>
-                        São animais exclusivamente carnívoros, alimentando-se de camarões, caranguejos, moluscos, peixes e até mesmo outros da mesma ordem.
-                    </p>
-                    <img src="https://figgysfoodtruck.com/img/mantis-shrimp-facts-2.jpg" alt="Stomatopoda comendo.">
-                </section>
+                    <section class="facts-1">
+                        <h4>Pequenos ou grandes</h4>
+                        <p>
+                            Apresentam uma grande variação de tamanho.
+                        </p>
+                        <img class="facts-img" src="https://www.borapescar.com/wp-content/uploads/2018/11/tamarutaca.jpg" alt="Stomatopoda grande.">
+                    </section>
 
+                    <section class="facts-1">
+                        <h4>Carnívoros</h4>
+                        <p>
+                            São animais exclusivamente carnívoros.
+                        </p>
+                        <img class="facts-img" src="https://figgysfoodtruck.com/img/mantis-shrimp-facts-2.jpg" alt="Stomatopoda comendo.">
+                    </section>
+
+                </section>
             
         </section>
 
     </main>
 
+    
+    
     <ul>
         <h3>Referências Bibliográficas</h3>
         <ul>

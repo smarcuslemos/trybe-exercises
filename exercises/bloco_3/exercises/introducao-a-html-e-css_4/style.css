@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    font-family: roboto, sans-serif;
+}
+
+/*Início do menu*/
+
+ul.menu-links {
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+}
+
+ul.menu-links li {
+    padding: 0;
+    background-color: teal;
+    display: inline-block;
+}
+
+ul.menu-links li:hover {
+    background-color: thistle;
+}
+
+nav.menu {
+    height: 90px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    border: 2px solid black;
+}
+
+ul.menu-links {
+    background-color: violet;
+    width: 700px;
+    margin: auto;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+/*Início do título*/
+
+
+main.conteudo {
+    padding-top: 137px;
+}
+
+header.title {
+    width: 700px;
+    margin: auto;
+    /*background-color: wheat;*/
+    text-align: center;
+    margin-bottom: 50px;
+    border: 2px solid black;
+}
+
+.title h1 {
+    text-align: center;
+}
+
+/*Início do conteúdo*/
+
+.container p {
+    color: black;
+    line-height: 2em;
+    background-color: turquoise;
+}
+
+.container img {
+    width: 210px;
+    border-radius: 50%;
+}
+
+.container {
+    display: inline-block;
+}
+
+.description {
+    /*background-color: violet;*/
+    border: 2px solid black;
+    margin: auto;
+    width: 700px;
+    margin-bottom: 50px;
+}
+
+.container {
+    background-color: tomato;
+    width: 400px;
+}
+
+/*Início informações científicas*/
+
+.cientific {
+    /*background-color: tomato;*/
+    /*border: 2px solid black;*/
+    margin: auto;
+    width: 700px;
+    margin-bottom: 50px;
+}
+
+.cientific h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cien-table, tr, td {
+    border: 2px solid black;
+}
+
+.cien-black {
+    background-color: black;
+    color: white;
+}
+
+/*Início dos fatos curiosos*/
+
+.facts h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.facts h4 {
+    margin-bottom: 10px;
+}
+
+.facts {
+    width: 700px;
+    margin: auto;
+    background-color: violet;
+
+}
+
+.facts-1 {
+    /*background-color: violet;*/
+    width: 200px;
+    border: 2px solid black;
+    margin-bottom: 0;
+    text-align: center;
+    
+}
+
+.facts-1 p {
+    margin-bottom: 10px;
+}
+
+.facts-img {
+    width: 200px;
+    height: 112px;
+}
+
+.facts-1 {
+    display: inline-block;
+}
+
+/*Início da Bibliografia*/
+
