@@ -5,8 +5,3 @@ for (let i = 0; i < numbers.length; i += 1) {
     console.log(numbers[i])
 }
 
-ou
-
-for (let i of numbers) {
-    console.log(i)
-}
