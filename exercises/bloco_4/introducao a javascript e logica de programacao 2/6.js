@@ -4,7 +4,9 @@ let impares = [];
 
 
 for (let dividendo = 0; dividendo < numbers.length; dividendo += 1) {
-    if (numbers[dividendo] % 2 !== 0) {impares.push(numbers[dividendo])} 
+    if (numbers[dividendo] % 2 !== 0) {
+        impares.push(numbers[dividendo])
+    } 
 }
 
 if (impares.length === 0) {
@@ -12,4 +14,3 @@ if (impares.length === 0) {
 } else {
     console.log(impares)
 }
-
