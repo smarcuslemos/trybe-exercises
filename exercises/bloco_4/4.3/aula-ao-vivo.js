@@ -43,3 +43,4 @@ for (let infEsq = 1; infEsq < 8; infEsq += 1) {
 };
 
 console.log(ataqueBemSucedido)
+
